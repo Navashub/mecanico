@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGGhaB9Y9fwW7JW6oX02jKtxkYglybJ_g&callback=initMap"
+        defer>
+        </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <h1 class="logo">mecanico</h1>
+        </div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                <li class="menu-list-item">Home</li>
+                <li class="menu-list-item">About</li>
+                <li class="menu-list-item">Contact Us</li>
+            </ul>
+        </div>
+    </div>
+    <div id="fundi">
+        <section class="p-10 bg-[#adb5bd]">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center">
+                <div class="h-[15.5rem]">
+                    <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock--960x640.jpg"
+                        class="h-full w-full object-cover" alt="" />
+                </div>
+                <div class="space-y-3 bg-black p-12 text-white rounded">
+                    <h2>Name: Martin Bwogo</h2>
+                    <p>Location: Nairobi</p>
+                    <p>Rate: 500Ksh/hr</p>
+                    <div class="items-center gap-2">
+
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            Details
+                        </button>
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                            Send Request
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
